@@ -33,6 +33,8 @@ and so.UserId = #{userId}
 
 ```
 public class OrderInfoVol implements Serializable {
+    private static final long serialVersionUID = 25604469354488389L;
+
     private float price;
     private long userId;
     private float couponMoney;
