@@ -1,10 +1,11 @@
 # knowledge
-主要用户记录自己的积累
+分类如下
 - [blog](blog)
 
+---
 
-目前记录一些自己需要看的知识，以免自己忘记
 ## 引用
+主要汇总一些好的（需要学习的）知识点
 - [spring cloud](https://github.com/ityouknow/spring-cloud-examples)
 - [Go Web](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
 - [Go 实战开发][1]
