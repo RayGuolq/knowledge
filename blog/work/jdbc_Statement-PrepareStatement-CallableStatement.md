@@ -6,10 +6,10 @@ JDBC核心API提供了三种向数据库发送SQL语句的类：
 - PreparedStatement：经过预编译并存储在PreparedStatement对象中的SQL语句，使用prepareStatement()方法创建，**继承 Statement**；用于执行带或不带 IN参数的预编译 SQL 语句。
 - CallableStatement：用于执行SQL存储过程，使用prepareCall()方法创建，**继承 PreparedStatement**；用于执行执行对数据库已存储过程的调用。
 
-> 特点
-> Statement 接口提供了执行语句和获取结果的基本方法。
-> PreparedStatement 接口添加了处理 IN 参数的方法；
-> 而CallableStatement 添加了处理 OUT 参数的方法。
+> 特点 
+> Statement 接口提供了执行语句和获取结果的基本方法。  
+> PreparedStatement 接口添加了处理 IN 参数的方法。  
+> 而CallableStatement 添加了处理 OUT 参数的方法。  
 
 
 ## 联系
